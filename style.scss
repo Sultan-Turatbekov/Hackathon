@@ -68,12 +68,20 @@ body {
             }
           }
         }
+        .my_burger{
+          position: absolute;
+          /* position: relative; */
+          top: 67px;
+          z-index: 2;
+          /* left: 0; */
+          right: 30px;
+        }
       }
 
       .navbar {
         display: none;
       }
-
+  
       .header__bottom {
         background: $main-beige-color;
         position: relative;
@@ -553,3 +561,4 @@ body {
     }
   }
 }
+

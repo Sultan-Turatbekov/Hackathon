@@ -40,6 +40,14 @@ body .container header nav ul li a:hover {
   color: #ff923b;
   border-bottom: 1px solid #ff923b;
 }
+body .container header nav .my_burger {
+  position: absolute;
+  /* position: relative; */
+  top: 67px;
+  z-index: 2;
+  /* left: 0; */
+  right: 30px;
+}
 body .container header .navbar {
   display: none;
 }

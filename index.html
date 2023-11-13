@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ESF</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="adapt.css" />
+  
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -22,11 +21,10 @@
       rel="stylesheet"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script
-      src="https://kit.fontawesome.com/57af563239.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="adapt.css" />
+
+
   </head>
   <body>
     <div class="container">
@@ -57,7 +55,7 @@
             </button>
           </div>
         </nav>
-        <div class="collapse" id="navbarToggleExternalContent3">
+        <div class="collapse my_burger" id="navbarToggleExternalContent3">
           <div class="bg-light shadow-3 p-4">
             <button class="btn btn-link btn-block border-bottom m-0"><a href="#about_me">Обо мне</a></button>
             <button class="btn btn-link btn-block border-bottom m-0"><a href="#consultasion">Консультация</a></button>
@@ -296,7 +294,7 @@
 
       <section data-aos="zoom-in" id="" class="images">
         <div class="slideshow-container">
-          <div class="mySlides fade">
+          <div class="mySlides">
             <div class="numbertext">1 / 3</div>
             <img
               src="https://ru.w3docs.com/uploads/media/default/0001/03/5bfad15a7fd24d448a48605baf52655a5bbe5a71.jpeg"
@@ -304,7 +302,7 @@
             />
             <div class="text">Лондон, Англия</div>
           </div>
-          <div class="mySlides fade">
+          <div class="mySlides">
             <div class="numbertext">2 / 3</div>
             <img
               src="https://ru.w3docs.com/uploads/media/default/0001/03/b7d624354d5fa22e38b0ab1f9b905fb08ccc6a05.jpeg"
@@ -312,7 +310,7 @@
             />
             <div class="text">Заход солнца в Румынии</div>
           </div>
-          <div class="mySlides fade">
+          <div class="mySlides">
             <div class="numbertext">3 / 3</div>
             <img
               src="https://ru.w3docs.com/uploads/media/default/0001/03/66cf5094908491e69d8187bcf934050a4800b37f.jpeg"
@@ -418,15 +416,27 @@
         <div></div>
       </footer>
     </div>
-    <script src="./script.js"></script>
-    <script>
-      AOS.init();
-    </script>
+ 
+
 
     <!-- MDB -->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
     ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script
+  src="https://kit.fontawesome.com/57af563239.js"
+  crossorigin="anonymous"
+></script>
+    <script src="./script.js"></script>
+
+
+    <script>
+      AOS.init();
+    </script>
+
+
   </body>
 </html>
